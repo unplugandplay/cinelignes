@@ -1,5 +1,5 @@
 # cineligne
-Based on gablaxian/super-js-adventure , cineligne will use opal/opal-browser for the implementation.
+Based on gablaxian/super-js-adventure and kittykatattack/ga , cineligne will use opal/opal-browser for the implementation, and opal complete rewrite.
 
 The idea is to create an engine and a player . The player will be able to connect to a rails backend that will drive authentication, chat messages, files and challenge.
 
