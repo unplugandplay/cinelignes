@@ -1,7 +1,9 @@
 # CINELIGNES
 
 ### What is a cineligne ?
-A cineligne is the mythical connection between 2 peoples, as of today science doesn't have any device to show and then study it rather by mental analysis like psychology and sociology. Then artistically speaking I will consider it as made of untangible light like component. My dad used to refer to cineligne as rays of lights dancing in the real world. That is why I decided to use the term cineligne he invented, and applyed it to any yet to discovered untangible light form.
+A cineligne is the mythical connection between 2 people. As of today science doesn't have any device to show and then has choosen to study it using  mental analysis like with psychology and sociology. 
+Then artistically speaking I will consider the connection as a beam made of untangible light-like component. 
+My dad used to refer to a cineligne as rays of lights dancing in the real world. That is why I decided to use the term cineligne he invented decades ago, and applyed it to any yet to discovered untangible light form.
 
 ### Purpose
 
