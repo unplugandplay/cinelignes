@@ -7,9 +7,9 @@ My dad used to refer to a cineligne as rays of lights dancing in the real world.
 
 ### Purpose
 
-Based on gablaxian/super-js-adventure and kittykatattack/ga , cineligne will use opal/opal-browser for the implementation, and opal complete rewrite.
+Based on an opal  ( plus  opal/opal-browser ) complete rewrite of gablaxian/super-js-adventure (for the editor) , kittykatattack/ga (for a sustainable engine) ,  inspired by mozilla/BrowserQuest and iliabylich/opal-browserquest-bot .
 
-The idea is to create an editor, an engine and a player . The player (front) will be able to connect to a rails backend (engine) that will drive authentication, chat messages, files and challenge.
+The idea is to create an editor, an engine and a (web|app)player . The player (front) will be able to connect to a rails backend (engine) that will drive authentication, chat messages, files and challenges.
 
 42s.video is a social network that try to reinvent the client <-> provider relationship , that should be based more on connections than on contacts details, quotes / invoices,  and PRs' todo-lists ... :) 
 
