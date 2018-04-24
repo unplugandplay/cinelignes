@@ -1,11 +1,23 @@
 <style type="text/css" media="screen">
-  * { margin: 0; padding: 0 }
-  #container { width: 256px; height: 224px; border: 1px solid #999; margin: 20px auto 0 auto; }
-</style>
 
-<body>
+  #container {  border: 1px solid #999;  }
+</style>
 <div id="container">
-  <canvas id="super-js-adventure" width="256" height="224"></canvas>
+  <canvas id="super-js-adventure" width="600" height="800"></canvas>
 </div>
+
+<script>
+
+
+        function my_render(ctx,image) {
+
+
+           // alert(image.src)
+          ctx.drawImage(image,100,100);
+        }
+        //my_render(ctx00,link0)
+
+
+</script>
 
 

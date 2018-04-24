@@ -5,29 +5,48 @@ require 'opal'
 #require 'rails_ujs'
 
 # Require of JS libraries will be forwarded to sprockets as is
-require 'turbolinks'
+#require 'turbolinks'
 
 # a Ruby equivalent of the require_tree Sprockets directive is available
 require_tree '.'
 
 # == Print something in the browser's console
-puts "Hello world of Cinelignes !"
+#puts "Hello world of Cinelignes !"
 
 require 'console'
 #$console.log %w[Hello world!]
 
 # == Use Native to wrap native JS objects, $$ is preconfigured to wrap `window`
-require 'native'
+#require 'native'
 #$$.alert "Hello world!"
 
 
-#require 'opal-browser'
+
+require 'opal-browser'
 # opal-browser demo
 #$document.ready do
 #  alert "yo dawg, I'm all loaded up in here"
 #end
 #
 
+
+def onload(&block)
+  `window.onload = block;`
+end
+
+def load(path)
+  promise = Promise.new
+  image   = $document.create_element('img')
+
+  image.on :load do
+    promise.resolve(image)
+  end
+
+  image[:src] = path
+
+  promise
+  image
+end
 
 
 #require 'opal-actioncable'
